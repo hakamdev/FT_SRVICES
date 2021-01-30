@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.11
 EXPOSE 5050
 COPY * /
 RUN  /setup_wordpress.sh
