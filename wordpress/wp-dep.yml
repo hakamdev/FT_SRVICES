@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wp-app
+  template:
+    metadata:
+      labels:
+        app: wp-app
+    spec:
+      containers:
+      - name: wp-container
+        image: wordpress
+        imagePullPolicy: Never
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+          name: http
+        - containerPort: 443
+          name: https
