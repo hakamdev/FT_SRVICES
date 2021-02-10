@@ -2,3 +2,4 @@
 echo "=========== STARTING ============";
 php-fpm7;
 nginx -g "daemon off;";
+top

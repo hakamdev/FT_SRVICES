@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wp-deployment
+  name: wordpress
 spec:
   replicas: 1
   selector:
@@ -14,14 +14,26 @@ spec:
     spec:
       containers:
       - name: wp-container
-        image: wordpress
+        image: x_wordpress
         imagePullPolicy: Never
         resources:
           limits:
-            memory: "128Mi"
+            memory: "512Mi"
             cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 5050
           name: http
-        - containerPort: 443
-          name: https
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wp-service
+  annotations:
+    metallb.universe.tf/allow-shared-ip: shared
+spec:
+  selector:
+    app: wp-app
+  type: LoadBalancer
+  ports:
+  - port: 5050
+    targetPort: 5050

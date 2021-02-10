@@ -7,7 +7,6 @@ apk --no-cache add php7-tokenizer php7-mysqli lighttpd php7-cgi fcgi;
 
 rc-update add nginx default;
 mkdir /var/www/html;
-# mv index.html /var/www/html;
 
 tar     -xvf wordpress-5.5.3.tar.gz;
 mv      wordpress/* /var/www/html/;
@@ -20,8 +19,6 @@ mv default.conf /etc/nginx/conf.d/;
 chown -R nginx: /etc/nginx/conf.d/default.conf;
 chmod 755 /etc/nginx/conf.d/default.conf;
 mkdir /run/nginx/;
-
-
 
 mkdir	/etc/ssl/private/
 mv      localhost.crt /etc/ssl/certs/
