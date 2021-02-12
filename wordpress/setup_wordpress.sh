@@ -10,6 +10,7 @@ mkdir /var/www/html;
 
 tar     -xvf wordpress-5.5.3.tar.gz;
 mv      wordpress/* /var/www/html/;
+mv		wp-config.php /var/www/html/;
 rm		-rf wordpress-5.5.3.tar.gz;
 
 chmod 755 /var/www/html;
