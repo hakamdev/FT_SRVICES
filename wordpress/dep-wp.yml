@@ -16,13 +16,8 @@ spec:
       - name: wp-container
         image: x_wordpress
         imagePullPolicy: Never
-        resources:
-          limits:
-            memory: "512Mi"
-            cpu: "500m"
         ports:
         - containerPort: 5050
-          name: http
 ---
 apiVersion: v1
 kind: Service

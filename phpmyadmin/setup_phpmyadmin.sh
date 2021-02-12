@@ -14,6 +14,8 @@ mv      phpMyAdmin-5.0.2-english/* /var/www/html/
 rm      -f phpMyAdmin-5.0.2-english.tar.gz
 mkdir	/var/www/html/tmp
 chmod	777	/var/www/html/tmp
+rm		-rf /var/www/html/config.sample.inc.php
+cp		config.inc.php /var/www/html/
 
 chmod	755 /var/www/html;
 chown	-R nginx: /var/www/html;

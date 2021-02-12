@@ -1,2 +1,2 @@
 service mariadb start
-/bin/sh
+top
