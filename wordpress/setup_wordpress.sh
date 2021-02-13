@@ -21,8 +21,8 @@ chown -R nginx: /etc/nginx/conf.d/default.conf;
 chmod 755 /etc/nginx/conf.d/default.conf;
 mkdir /run/nginx/;
 
-mkdir	/etc/ssl/private/
-mv      localhost.crt /etc/ssl/certs/
-mv      localhost.key /etc/ssl/private/
-chown	-R nginx: /etc/ssl/private/localhost.key
-chown	-R nginx: /etc/ssl/certs/localhost.crt
+# mkdir	/etc/ssl/private/
+# mv      localhost.crt /etc/ssl/certs/
+# mv      localhost.key /etc/ssl/private/
+# chown	-R nginx: /etc/ssl/private/localhost.key
+# chown	-R nginx: /etc/ssl/certs/localhost.crt
