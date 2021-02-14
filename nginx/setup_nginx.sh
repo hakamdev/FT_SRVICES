@@ -4,13 +4,13 @@ apk --no-cache add openrc;
 
 rc-update add nginx default;
 mkdir /var/www/html;
-
+mv		index.html /var/www/html/
 chmod 755 /var/www/html;
 chown -R nginx: /var/www/html;
-# rm -rf /etc/nginx/conf.d/default.conf;
-# mv default.conf /etc/nginx/conf.d/;
-# chown -R nginx: /etc/nginx/conf.d/default.conf;
-# chmod 755 /etc/nginx/conf.d/default.conf;
+rm -rf /etc/nginx/conf.d/default.conf;
+mv default.conf /etc/nginx/conf.d/;
+chown -R nginx: /etc/nginx/conf.d/default.conf;
+chmod 755 /etc/nginx/conf.d/default.conf;
 mkdir /run/nginx/;
 
 mkdir	/etc/ssl/private/
