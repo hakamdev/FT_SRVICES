@@ -7,10 +7,10 @@ mkdir /var/www/html;
 mv index.html /var/www/html/
 chmod 755 /var/www/html;
 chown -R nginx: /var/www/html;
-rm -rf /etc/nginx/conf.d/default.conf;
-mv default.conf /etc/nginx/conf.d/;
-chown -R nginx: /etc/nginx/conf.d/default.conf;
-chmod 755 /etc/nginx/conf.d/default.conf;
+rm -rf /etc/nginx/nginx.conf;
+mv nginx.conf /etc/nginx/;
+chown -R nginx: /etc/nginx/nginx.conf;
+chmod 755 /etc/nginx/nginx.conf;
 mkdir /run/nginx/;
 
 mv      localhost.crt /etc/ssl/certs/
