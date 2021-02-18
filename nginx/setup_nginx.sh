@@ -4,7 +4,6 @@ apk --no-cache add openrc;
 apk --no-cache add openssh;
 
 rc-status
-rc boot
 rc-update add nginx;
 rc-update add sshd;
 
