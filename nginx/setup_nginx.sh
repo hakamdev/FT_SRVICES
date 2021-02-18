@@ -1,8 +1,16 @@
 apk --no-cache update;
 apk --no-cache add nginx;
 apk --no-cache add openrc;
+apk --no-cache add openssh;
 
-rc-update add nginx default;
+rc-status
+rc boot
+rc-update add nginx;
+rc-update add sshd;
+
+adduser -D hakam;
+echo hakam:hakam | chpasswd; 
+
 mkdir /var/www/html;
 mv index.html /var/www/html/
 chmod 755 /var/www/html;
