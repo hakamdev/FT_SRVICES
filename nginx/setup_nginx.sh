@@ -4,6 +4,9 @@ apk --no-cache add openrc;
 apk --no-cache add openssh;
 apk --no-cache add openssl;
 
+mkdir	/run/openrc;
+touch	/run/openrc/softlevel;
+
 rc-status
 rc-update add nginx;
 rc-update add sshd;

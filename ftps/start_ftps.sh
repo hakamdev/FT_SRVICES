@@ -1,3 +1,3 @@
 #!/bin/sh
-/etc/init.d/vsftpd start
+vsftpd /etc/vsftpd/vsftpd.conf;
 top;
