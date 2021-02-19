@@ -26,6 +26,6 @@ mkdir /run/nginx/;
 
 # mv      localhost.crt /etc/ssl/certs/
 # mv      localhost.key /etc/ssl/private/
-openssl req -nodes -newkey rsa:2048 -keyout /etc/ssl/private/localhost.key -out /etc/ssl/certs/localhost.crt -subj "/C=MA/ST=Bg/L=Benguerir/O=1337/OU=ComputerScience/CN=www.hakamdev.com"
-chown	-R nginx: /etc/ssl/private/localhost.key
-chown	-R nginx: /etc/ssl/certs/localhost.crt
+openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/nginx.pem -keyout /etc/ssl/private/nginx.key -subj "/C=MA/ST=Bg/L=Benguerir/O=1337/OU=ComputerScience/CN=www.hakamdev.com/name=hakamdev"
+chown	-R nginx: /etc/ssl/private/nginx.key
+chown	-R nginx: /etc/ssl/certs/nginx.pem

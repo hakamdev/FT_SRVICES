@@ -28,5 +28,5 @@ kubectl apply -f nginx/dep-nginx.yml;
 kubectl apply -f influxdb/dep-influxdb.yml;
 kubectl apply -f ftps/dep-ftps.yml;
 
-minikube dashboard &
 clear;
+minikube dashboard &

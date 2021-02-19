@@ -8,7 +8,9 @@ mysql_install_db --user=mysql --datadir=/var/lib/mysql
 rc-status;
 service mariadb start;
 mysql -u root -e "CREATE DATABASE wordpress;";
+mysql -u root -e "CREATE DATABASE phpmyadmin;";
 mysql -u root wordpress < /wordpress.sql;
+mysql -u root phpmyadmin < /phpmyadmin.sql;
 mysql -u root -e "CREATE USER 'hakam'@'%' IDENTIFIED BY 'hakam';"
 mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'hakam'@'%';";
 mysql -u root -e "FLUSH PRIVILEGES;";
