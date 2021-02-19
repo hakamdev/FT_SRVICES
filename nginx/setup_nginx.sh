@@ -1,3 +1,4 @@
+#!/bin/sh
 apk --no-cache update;
 apk --no-cache add nginx;
 apk --no-cache add openrc;
@@ -24,8 +25,6 @@ chown -R nginx: /etc/nginx/nginx.conf;
 chmod 755 /etc/nginx/nginx.conf;
 mkdir /run/nginx/;
 
-# mv      localhost.crt /etc/ssl/certs/
-# mv      localhost.key /etc/ssl/private/
 openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/nginx.pem -keyout /etc/ssl/private/nginx.key -subj "/C=MA/ST=Bg/L=Benguerir/O=1337/OU=ComputerScience/CN=www.hakamdev.com/name=hakamdev"
 chown	-R nginx: /etc/ssl/private/nginx.key
 chown	-R nginx: /etc/ssl/certs/nginx.pem

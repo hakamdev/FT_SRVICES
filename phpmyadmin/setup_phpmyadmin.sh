@@ -1,3 +1,4 @@
+#!/bin/sh
 apk		--no-cache update;
 apk		--no-cache add nginx;
 apk		--no-cache add openrc;

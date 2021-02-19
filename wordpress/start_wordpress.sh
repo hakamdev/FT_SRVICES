@@ -1,4 +1,3 @@
-# rc-service nginx start;
-echo "=========== STARTING ============";
+#!/bin/sh
 php-fpm7;
 nginx -g "daemon off;";
