@@ -19,6 +19,7 @@ docker build -t x_phpmyadmin phpmyadmin/;
 docker build -t x_nginx nginx/;
 docker build -t x_influxdb influxdb/;
 docker build -t x_ftps ftps/;
+docker build -t x_grafana grafana/;
 
 # Creating Deployments & Services for Images
 kubectl apply -f mysql/dep-mysql.yml;
@@ -27,6 +28,7 @@ kubectl apply -f phpmyadmin/dep-pma.yml;
 kubectl apply -f nginx/dep-nginx.yml;
 kubectl apply -f influxdb/dep-influxdb.yml;
 kubectl apply -f ftps/dep-ftps.yml;
+kubectl apply -f grafana/dep-grafana.yml;
 
 clear;
 minikube dashboard &
