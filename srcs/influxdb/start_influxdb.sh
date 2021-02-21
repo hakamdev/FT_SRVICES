@@ -1,3 +1,4 @@
 #!/bin/sh
-/etc/init.d/influxdb start;
+/etc/init.d/influxdb start
+telegraf &
 top

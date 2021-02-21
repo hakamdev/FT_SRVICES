@@ -9,7 +9,7 @@ minikube start --driver=virtualbox;
 # Metallb already comes with Minikube as an addon, so there is no need to Deploy it using Kubectl
 # because sometimes it doesn't get pulled by Docker!
 minikube addons enable metallb;
-kubectl apply -f metallb/metallb-config.yml;
+kubectl apply -f srcs/_metallb/metallb-config.yml;
 
 # Configuring Docker and Building Images
 eval $(minikube docker-env);
