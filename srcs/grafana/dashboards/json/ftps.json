@@ -10587,7 +10587,7 @@
 		  "options": [],
 		  "query": "influxdb",
 		  "refresh": 1,
-		  "regex": "",
+		  "regex": "/Ftps*/",
 		  "skipUrlSync": false,
 		  "type": "datasource"
 		},

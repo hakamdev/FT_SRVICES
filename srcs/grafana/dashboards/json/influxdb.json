@@ -16,8 +16,8 @@
 	"editable": true,
 	"gnetId": 928,
 	"graphTooltip": 1,
-	"id": 1,
-	"iteration": 1613926820086,
+	"id": 9,
+	"iteration": 1614006961348,
 	"links": [],
 	"panels": [
 	  {
@@ -44,7 +44,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(50, 172, 45, 0.97)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 1,
 		"editable": true,
 		"error": false,
@@ -170,7 +170,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 1,
 		"editable": true,
 		"error": false,
@@ -296,7 +296,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -422,7 +422,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -548,7 +548,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -674,7 +674,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -811,7 +811,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -936,7 +936,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -1062,7 +1062,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(245, 54, 54, 0.9)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -1194,7 +1194,7 @@
 		  "rgba(237, 129, 40, 0.89)",
 		  "rgba(50, 172, 45, 0.97)"
 		],
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 2,
 		"editable": true,
 		"error": false,
@@ -1339,7 +1339,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -1483,7 +1483,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -1621,7 +1621,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -1780,7 +1780,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -1942,7 +1942,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -1961,7 +1961,6 @@
 		  "y": 35
 		},
 		"height": "",
-		"hiddenSeries": false,
 		"id": 61855,
 		"legend": {
 		  "alignAsTable": true,
@@ -1978,9 +1977,6 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2084,7 +2080,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -2103,7 +2099,6 @@
 		  "y": 35
 		},
 		"height": "",
-		"hiddenSeries": false,
 		"id": 61960,
 		"legend": {
 		  "alignAsTable": true,
@@ -2120,9 +2115,6 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2226,7 +2218,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -2245,7 +2237,6 @@
 		  "y": 35
 		},
 		"height": "",
-		"hiddenSeries": false,
 		"id": 62042,
 		"legend": {
 		  "alignAsTable": true,
@@ -2262,9 +2253,6 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2440,7 +2428,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"fieldConfig": {
 		  "defaults": {
 			"custom": {},
@@ -2456,7 +2444,6 @@
 		  "x": 0,
 		  "y": 43
 		},
-		"hiddenSeries": false,
 		"id": 62043,
 		"legend": {
 		  "alignAsTable": true,
@@ -2477,9 +2464,6 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2614,7 +2598,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -2629,12 +2613,11 @@
 		"grid": {},
 		"gridPos": {
 		  "h": 7,
-		  "w": 12,
+		  "w": 6,
 		  "x": 0,
 		  "y": 51
 		},
 		"height": "",
-		"hiddenSeries": false,
 		"id": 61868,
 		"interval": "$inter",
 		"legend": {
@@ -2657,176 +2640,12 @@
 		"links": [],
 		"maxPerRow": 4,
 		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
 		"repeat": "cpu",
-		"scopedVars": {
-		  "cpu": {
-			"selected": false,
-			"text": "cpu0",
-			"value": "cpu0"
-		  }
-		},
-		"seriesOverrides": [],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": false,
-		"targets": [
-		  {
-			"alias": "$tag_host: $cpu $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"hide": false,
-			"measurement": "cpu_percentageBusy",
-			"policy": "default",
-			"query": "SELECT mean(usage_user) as \"user\", mean(usage_system) as \"system\", mean(usage_softirq) as \"softirq\", mean(usage_steal) as \"steal\", mean(usage_nice) as \"nice\", mean(usage_irq) as \"irq\", mean(usage_iowait) as \"iowait\", mean(usage_guest) as \"guest\", mean(usage_guest_nice) as \"guest_nice\"  FROM \"cpu\" WHERE \"host\" =~ /$server$/ and cpu = '$cpu' AND $timeFilter GROUP BY time($interval), *",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "CPU usage for $cpu",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "percent",
-			"logBase": 1,
-			"max": 100,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"aliasColors": {},
-		"bars": false,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 12,
-		  "y": 51
-		},
-		"height": "",
-		"hiddenSeries": false,
-		"id": 62058,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "hideEmpty": true,
-		  "hideZero": true,
-		  "max": true,
-		  "min": false,
-		  "rightSide": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": true,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"options": {
-		  "alertThreshold": true
-		},
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 61868,
-		"scopedVars": {
-		  "cpu": {
-			"selected": false,
-			"text": "cpu1",
-			"value": "cpu1"
-		  }
-		},
 		"seriesOverrides": [],
 		"spaceLength": 10,
 		"stack": false,
@@ -2936,7 +2755,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -3135,7 +2954,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -3280,7 +3099,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -3687,7 +3506,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 0,
 		"editable": true,
 		"error": false,
@@ -3969,7 +3788,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -4217,7 +4036,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -4514,7 +4333,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 1,
 		"editable": true,
 		"error": false,
@@ -4763,7 +4582,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -5158,7 +4977,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -5568,7 +5387,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -5763,7 +5582,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 2,
 		"editable": true,
 		"error": false,
@@ -5961,7 +5780,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 2,
 		"editable": true,
 		"error": false,
@@ -6217,13 +6036,6 @@
 		"id": 62053,
 		"panels": [],
 		"repeat": "netif",
-		"scopedVars": {
-		  "netif": {
-			"selected": false,
-			"text": "eth0",
-			"value": "eth0"
-		  }
-		},
 		"title": "Network interface stats for $netif",
 		"type": "row"
 	  },
@@ -6232,7 +6044,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -6273,13 +6085,6 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"scopedVars": {
-		  "netif": {
-			"selected": false,
-			"text": "eth0",
-			"value": "eth0"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/ in$/",
@@ -6434,7 +6239,7 @@
 		"bars": true,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -6475,13 +6280,6 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"scopedVars": {
-		  "netif": {
-			"selected": false,
-			"text": "eth0",
-			"value": "eth0"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/ in$/",
@@ -6637,7 +6435,7 @@
 		"bars": true,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"decimals": 1,
 		"editable": true,
 		"error": false,
@@ -6679,13 +6477,6 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"scopedVars": {
-		  "netif": {
-			"selected": false,
-			"text": "eth0",
-			"value": "eth0"
-		  }
-		},
 		"seriesOverrides": [],
 		"spaceLength": 10,
 		"stack": false,
@@ -6836,7 +6627,7 @@
 		"bars": true,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -6877,13 +6668,6 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"scopedVars": {
-		  "netif": {
-			"selected": false,
-			"text": "eth0",
-			"value": "eth0"
-		  }
-		},
 		"seriesOverrides": [],
 		"spaceLength": 10,
 		"stack": false,
@@ -7049,7 +6833,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -7189,7 +6973,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -7337,13 +7121,6 @@
 		"id": 62055,
 		"panels": [],
 		"repeat": "disk",
-		"scopedVars": {
-		  "disk": {
-			"selected": false,
-			"text": "sda",
-			"value": "sda"
-		  }
-		},
 		"title": "Disk IOPS for /dev/$disk",
 		"type": "row"
 	  },
@@ -7352,7 +7129,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -7398,13 +7175,6 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"scopedVars": {
-		  "disk": {
-			"selected": false,
-			"text": "sda",
-			"value": "sda"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/.*write$/",
@@ -7559,7 +7329,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -7605,13 +7375,6 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"scopedVars": {
-		  "disk": {
-			"selected": false,
-			"text": "sda",
-			"value": "sda"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/.*write$/",
@@ -7766,7 +7529,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -7812,13 +7575,6 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"scopedVars": {
-		  "disk": {
-			"selected": false,
-			"text": "sda",
-			"value": "sda"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/.*write$/",
@@ -7980,13 +7736,6 @@
 		"id": 62056,
 		"panels": [],
 		"repeat": "mountpoint",
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/",
-			"value": "/"
-		  }
-		},
 		"title": "Disk space usage for $mountpoint",
 		"type": "row"
 	  },
@@ -7995,7 +7744,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -8039,13 +7788,6 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/",
-			"value": "/"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/total/",
@@ -8154,7 +7896,7 @@
 		"bars": true,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"editable": true,
 		"error": false,
 		"fieldConfig": {
@@ -8198,13 +7940,6 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/",
-			"value": "/"
-		  }
-		},
 		"seriesOverrides": [
 		  {
 			"alias": "/used/",
@@ -8372,1614 +8107,6 @@
 		  "x": 0,
 		  "y": 156
 		},
-		"id": 62059,
-		"panels": [],
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 62056,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/dev/termination-log",
-			"value": "/dev/termination-log"
-		  }
-		},
-		"title": "Disk space usage for $mountpoint",
-		"type": "row"
-	  },
-	  {
-		"aliasColors": {},
-		"bars": false,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 0,
-		  "y": 157
-		},
-		"id": 62060,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": true,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 52240,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/dev/termination-log",
-			"value": "/dev/termination-log"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/total/",
-			"color": "#BF1B00",
-			"fill": 0,
-			"linewidth": 2,
-			"zindex": 3
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_total",
-			"policy": "default",
-			"query": "SELECT mean(total) AS \"total\", mean(used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/ AND \"path\" =~ /^$mountpoint$/AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk usage for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "bytes",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"aliasColors": {},
-		"bars": true,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 12,
-		  "y": 157
-		},
-		"id": 62061,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": false,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 33458,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/dev/termination-log",
-			"value": "/dev/termination-log"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/used/",
-			"color": "#447EBC",
-			"zindex": 3
-		  },
-		  {
-			"alias": "/total/",
-			"bars": false,
-			"color": "#BF1B00",
-			"fill": 0,
-			"lines": true,
-			"linewidth": 1
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  },
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_free) + mean(inodes_used) as \"total\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "A",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk inodes for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"collapsed": false,
-		"datasource": null,
-		"gridPos": {
-		  "h": 1,
-		  "w": 24,
-		  "x": 0,
-		  "y": 164
-		},
-		"id": 62062,
-		"panels": [],
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 62056,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hostname",
-			"value": "/etc/hostname"
-		  }
-		},
-		"title": "Disk space usage for $mountpoint",
-		"type": "row"
-	  },
-	  {
-		"aliasColors": {},
-		"bars": false,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 0,
-		  "y": 165
-		},
-		"id": 62063,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": true,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 52240,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hostname",
-			"value": "/etc/hostname"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/total/",
-			"color": "#BF1B00",
-			"fill": 0,
-			"linewidth": 2,
-			"zindex": 3
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_total",
-			"policy": "default",
-			"query": "SELECT mean(total) AS \"total\", mean(used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/ AND \"path\" =~ /^$mountpoint$/AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk usage for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "bytes",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"aliasColors": {},
-		"bars": true,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 12,
-		  "y": 165
-		},
-		"id": 62064,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": false,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 33458,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hostname",
-			"value": "/etc/hostname"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/used/",
-			"color": "#447EBC",
-			"zindex": 3
-		  },
-		  {
-			"alias": "/total/",
-			"bars": false,
-			"color": "#BF1B00",
-			"fill": 0,
-			"lines": true,
-			"linewidth": 1
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  },
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_free) + mean(inodes_used) as \"total\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "A",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk inodes for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"collapsed": false,
-		"datasource": null,
-		"gridPos": {
-		  "h": 1,
-		  "w": 24,
-		  "x": 0,
-		  "y": 172
-		},
-		"id": 62065,
-		"panels": [],
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 62056,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hosts",
-			"value": "/etc/hosts"
-		  }
-		},
-		"title": "Disk space usage for $mountpoint",
-		"type": "row"
-	  },
-	  {
-		"aliasColors": {},
-		"bars": false,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 0,
-		  "y": 173
-		},
-		"id": 62066,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": true,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 52240,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hosts",
-			"value": "/etc/hosts"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/total/",
-			"color": "#BF1B00",
-			"fill": 0,
-			"linewidth": 2,
-			"zindex": 3
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_total",
-			"policy": "default",
-			"query": "SELECT mean(total) AS \"total\", mean(used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/ AND \"path\" =~ /^$mountpoint$/AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk usage for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "bytes",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"aliasColors": {},
-		"bars": true,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 12,
-		  "y": 173
-		},
-		"id": 62067,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": false,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 33458,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/hosts",
-			"value": "/etc/hosts"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/used/",
-			"color": "#447EBC",
-			"zindex": 3
-		  },
-		  {
-			"alias": "/total/",
-			"bars": false,
-			"color": "#BF1B00",
-			"fill": 0,
-			"lines": true,
-			"linewidth": 1
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  },
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_free) + mean(inodes_used) as \"total\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "A",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk inodes for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"collapsed": false,
-		"datasource": null,
-		"gridPos": {
-		  "h": 1,
-		  "w": 24,
-		  "x": 0,
-		  "y": 180
-		},
-		"id": 62068,
-		"panels": [],
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 62056,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/resolv.conf",
-			"value": "/etc/resolv.conf"
-		  }
-		},
-		"title": "Disk space usage for $mountpoint",
-		"type": "row"
-	  },
-	  {
-		"aliasColors": {},
-		"bars": false,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 0,
-		  "y": 181
-		},
-		"id": 62069,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": true,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 52240,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/resolv.conf",
-			"value": "/etc/resolv.conf"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/total/",
-			"color": "#BF1B00",
-			"fill": 0,
-			"linewidth": 2,
-			"zindex": 3
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_total",
-			"policy": "default",
-			"query": "SELECT mean(total) AS \"total\", mean(used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/ AND \"path\" =~ /^$mountpoint$/AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk usage for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "bytes",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"aliasColors": {},
-		"bars": true,
-		"dashLength": 10,
-		"dashes": false,
-		"datasource": "InfluxDB",
-		"editable": true,
-		"error": false,
-		"fieldConfig": {
-		  "defaults": {
-			"custom": {},
-			"links": []
-		  },
-		  "overrides": []
-		},
-		"fill": 1,
-		"fillGradient": 0,
-		"grid": {},
-		"gridPos": {
-		  "h": 7,
-		  "w": 12,
-		  "x": 12,
-		  "y": 181
-		},
-		"id": 62070,
-		"interval": "$inter",
-		"legend": {
-		  "alignAsTable": true,
-		  "avg": true,
-		  "current": true,
-		  "max": true,
-		  "min": false,
-		  "show": true,
-		  "sort": "current",
-		  "sortDesc": true,
-		  "total": false,
-		  "values": true
-		},
-		"lines": false,
-		"linewidth": 1,
-		"links": [],
-		"maxPerRow": 4,
-		"nullPointMode": "connected",
-		"percentage": false,
-		"pluginVersion": "7.4.2",
-		"pointradius": 5,
-		"points": false,
-		"renderer": "flot",
-		"repeat": null,
-		"repeatIteration": 1613926820086,
-		"repeatPanelId": 33458,
-		"repeatedByRow": true,
-		"scopedVars": {
-		  "mountpoint": {
-			"selected": false,
-			"text": "/etc/resolv.conf",
-			"value": "/etc/resolv.conf"
-		  }
-		},
-		"seriesOverrides": [
-		  {
-			"alias": "/used/",
-			"color": "#447EBC",
-			"zindex": 3
-		  },
-		  {
-			"alias": "/total/",
-			"bars": false,
-			"color": "#BF1B00",
-			"fill": 0,
-			"lines": true,
-			"linewidth": 1
-		  }
-		],
-		"spaceLength": 10,
-		"stack": false,
-		"steppedLine": true,
-		"targets": [
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_used) as \"used\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "B",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  },
-		  {
-			"alias": "$tag_host: mountpoint $tag_path - $col",
-			"dsType": "influxdb",
-			"function": "mean",
-			"groupBy": [
-			  {
-				"interval": "auto",
-				"params": [
-				  "auto"
-				],
-				"type": "time"
-			  },
-			  {
-				"key": "host",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  },
-			  {
-				"key": "path",
-				"params": [
-				  "tag"
-				],
-				"type": "tag"
-			  }
-			],
-			"measurement": "disk_inodes_free",
-			"policy": "default",
-			"query": "SELECT mean(inodes_free) + mean(inodes_used) as \"total\" FROM \"disk\" WHERE \"host\" =~ /$server$/  AND \"path\" =~ /^$mountpoint$/ AND $timeFilter GROUP BY time($interval), \"host\", \"path\"",
-			"rawQuery": true,
-			"refId": "A",
-			"resultFormat": "time_series",
-			"select": [
-			  [
-				{
-				  "params": [
-					"value"
-				  ],
-				  "type": "field"
-				},
-				{
-				  "params": [],
-				  "type": "mean"
-				}
-			  ]
-			],
-			"tags": []
-		  }
-		],
-		"thresholds": [],
-		"timeFrom": null,
-		"timeRegions": [],
-		"timeShift": null,
-		"title": "Disk inodes for $mountpoint",
-		"tooltip": {
-		  "msResolution": false,
-		  "shared": true,
-		  "sort": 0,
-		  "value_type": "cumulative"
-		},
-		"type": "graph",
-		"xaxis": {
-		  "buckets": null,
-		  "mode": "time",
-		  "name": null,
-		  "show": true,
-		  "values": []
-		},
-		"yaxes": [
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": 0,
-			"show": true
-		  },
-		  {
-			"format": "short",
-			"logBase": 1,
-			"max": null,
-			"min": null,
-			"show": true
-		  }
-		],
-		"yaxis": {
-		  "align": false,
-		  "alignLevel": null
-		}
-	  },
-	  {
-		"collapsed": false,
-		"datasource": null,
-		"gridPos": {
-		  "h": 1,
-		  "w": 24,
-		  "x": 0,
-		  "y": 188
-		},
 		"id": 62057,
 		"panels": [],
 		"repeat": null,
@@ -9991,7 +8118,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"fieldConfig": {
 		  "defaults": {
 			"custom": {},
@@ -10005,7 +8132,7 @@
 		  "h": 7,
 		  "w": 6,
 		  "x": 0,
-		  "y": 189
+		  "y": 157
 		},
 		"id": 62001,
 		"legend": {
@@ -10128,7 +8255,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"fieldConfig": {
 		  "defaults": {
 			"custom": {},
@@ -10142,7 +8269,7 @@
 		  "h": 7,
 		  "w": 6,
 		  "x": 6,
-		  "y": 189
+		  "y": 157
 		},
 		"id": 62004,
 		"legend": {
@@ -10265,7 +8392,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"fieldConfig": {
 		  "defaults": {
 			"custom": {},
@@ -10279,7 +8406,7 @@
 		  "h": 7,
 		  "w": 6,
 		  "x": 12,
-		  "y": 189
+		  "y": 157
 		},
 		"id": 62003,
 		"legend": {
@@ -10402,7 +8529,7 @@
 		"bars": false,
 		"dashLength": 10,
 		"dashes": false,
-		"datasource": "InfluxDB",
+		"datasource": "Influxdb",
 		"fieldConfig": {
 		  "defaults": {
 			"custom": {},
@@ -10416,7 +8543,7 @@
 		  "h": 7,
 		  "w": 6,
 		  "x": 18,
-		  "y": 189
+		  "y": 157
 		},
 		"id": 62002,
 		"legend": {
@@ -10596,9 +8723,9 @@
 		{
 		  "allFormat": "glob",
 		  "current": {
-			"selected": true,
-			"text": "InfluxDB",
-			"value": "InfluxDB"
+			"selected": false,
+			"text": "Ftps",
+			"value": "Ftps"
 		  },
 		  "datasource": "InfluxDB telegraf",
 		  "description": null,
@@ -10610,9 +8737,8 @@
 		  "name": "datasource",
 		  "options": [],
 		  "query": "influxdb",
-		  "queryValue": "",
 		  "refresh": 1,
-		  "regex": "",
+		  "regex": "/Influxdb*/",
 		  "skipUrlSync": false,
 		  "type": "datasource"
 		},
@@ -10689,10 +8815,10 @@
 		  "allValue": null,
 		  "current": {
 			"selected": false,
-			"text": "influxdb-7c7bf46977-jtdvd",
-			"value": "influxdb-7c7bf46977-jtdvd"
+			"text": "influxdb-7c7bf46977-zrg4k",
+			"value": "influxdb-7c7bf46977-zrg4k"
 		  },
-		  "datasource": "InfluxDB",
+		  "datasource": "Influxdb",
 		  "definition": "",
 		  "description": null,
 		  "error": null,
@@ -10858,6 +8984,6 @@
 	},
 	"timezone": "browser",
 	"title": "InfluxDB Dashboard",
-	"uid": "000000127",
-	"version": 3
+	"uid": "000000141",
+	"version": 2
   }

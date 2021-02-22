@@ -4,7 +4,7 @@ apiVersion: 1
 providers:
 - name: 'Dashboards'
   orgId: 1
-  folder: 'General'
+  folder: ''
   folderUid: ''
   type: file
   options:

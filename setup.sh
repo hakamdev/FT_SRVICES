@@ -31,4 +31,3 @@ kubectl apply -f srcs/ftps/dep-ftps.yml;
 kubectl apply -f srcs/grafana/dep-grafana.yml;
 
 clear;
-minikube dashboard &

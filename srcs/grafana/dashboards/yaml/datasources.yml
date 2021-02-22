@@ -1,0 +1,54 @@
+# config file version
+apiVersion: 1
+
+# list of datasources to insert/update depending
+# on what's available in the database
+datasources:
+- name: Ftps
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_ftps
+
+- name: Grafana
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_grafana
+
+- name: Influxdb
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_influxdb
+
+- name: MySQL
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_mysql
+
+- name: Nginx
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_nginx
+
+- name: Phpmyadmin
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_pma
+
+- name: Wordpress
+  type: influxdb
+  access: proxy
+  orgId: 1
+  url: http://10.99.99.100:8086
+  database: db_wp

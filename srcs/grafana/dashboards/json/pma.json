@@ -10588,7 +10588,7 @@
 		  "query": "influxdb",
 		  "queryValue": "",
 		  "refresh": 1,
-		  "regex": "",
+		  "regex": "/Phpmyadmin*/",
 		  "skipUrlSync": false,
 		  "type": "datasource"
 		},

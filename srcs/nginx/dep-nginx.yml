@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-app
+  name: nginx
 spec:
   selector:
     matchLabels:
@@ -43,4 +43,3 @@ spec:
   - port: 22
     targetPort: 22
     name: ssh
-

@@ -16,8 +16,8 @@
 	"editable": true,
 	"gnetId": 928,
 	"graphTooltip": 1,
-	"id": 3,
-	"iteration": 1613926778663,
+	"id": 6,
+	"iteration": 1614014451194,
 	"links": [],
 	"panels": [
 	  {
@@ -2794,7 +2794,7 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 61868,
 		"scopedVars": {
 		  "cpu": {
@@ -8350,7 +8350,7 @@
 		},
 		"id": 62059,
 		"panels": [],
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -8411,7 +8411,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8573,7 +8573,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8752,7 +8752,7 @@
 		},
 		"id": 62062,
 		"panels": [],
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -8813,7 +8813,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8975,7 +8975,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9154,7 +9154,7 @@
 		},
 		"id": 62065,
 		"panels": [],
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -9215,7 +9215,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9377,7 +9377,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9556,7 +9556,7 @@
 		},
 		"id": 62068,
 		"panels": [],
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -9617,7 +9617,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9779,7 +9779,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926778663,
+		"repeatIteration": 1614014451194,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -10572,7 +10572,7 @@
 		{
 		  "allFormat": "glob",
 		  "current": {
-			"selected": true,
+			"selected": false,
 			"text": "Grafana",
 			"value": "Grafana"
 		  },
@@ -10588,7 +10588,7 @@
 		  "query": "influxdb",
 		  "queryValue": "",
 		  "refresh": 1,
-		  "regex": "",
+		  "regex": "/Grafana*/",
 		  "skipUrlSync": false,
 		  "type": "datasource"
 		},
@@ -10665,8 +10665,8 @@
 		  "allValue": null,
 		  "current": {
 			"selected": false,
-			"text": "grafana-846d44b488-q7whj",
-			"value": "grafana-846d44b488-q7whj"
+			"text": "grafana-846d44b488-cwbv7",
+			"value": "grafana-846d44b488-cwbv7"
 		  },
 		  "datasource": "Grafana",
 		  "definition": "",
@@ -10835,5 +10835,5 @@
 	"timezone": "browser",
 	"title": "Grafana Dashboard",
 	"uid": "000000129",
-	"version": 5
+	"version": 1
   }
