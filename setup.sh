@@ -2,10 +2,6 @@
 minikube delete;
 minikube start --driver=virtualbox;
 # Installing Metallb LoadBalancer
-# kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/namespace.yaml
-# kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/metallb.yaml
-# kubectl create secret generic -n metallb-system memberlist --from-literal=secretkey="$(openssl rand -base64 128)"
-
 # Metallb already comes with Minikube as an addon, so there is no need to Deploy it using Kubectl
 # because sometimes it doesn't get pulled by Docker!
 minikube addons enable metallb;
@@ -30,4 +26,5 @@ kubectl apply -f srcs/influxdb/dep-influxdb.yml;
 kubectl apply -f srcs/ftps/dep-ftps.yml;
 kubectl apply -f srcs/grafana/dep-grafana.yml;
 
+rm -f ~/.ssh/known_hosts
 clear;
