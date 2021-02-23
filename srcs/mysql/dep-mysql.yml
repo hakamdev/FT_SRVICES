@@ -20,6 +20,13 @@ spec:
             mountPath: /var/lib/mysql
         ports:
         - containerPort: 3306
+        livenessProbe:
+          exec:
+            command:
+              - sh
+              - /health.sh
+          initialDelaySeconds: 30
+          periodSeconds: 5
       volumes:
         - name: mysql-volume
           persistentVolumeClaim:
@@ -46,6 +53,5 @@ spec:
   resources:
     requests:
       storage: 300Mi
-  volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce

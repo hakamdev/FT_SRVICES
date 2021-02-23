@@ -18,9 +18,15 @@ spec:
         volumeMounts:
           - name: influxdb-volume
             mountPath: /var/lib/influxdb
-
         ports:
         - containerPort: 8086
+        livenessProbe:
+          exec:
+            command:
+              - sh
+              - /health.sh
+          initialDelaySeconds: 30
+          periodSeconds: 5
       volumes:
         - name: influxdb-volume
           persistentVolumeClaim:
@@ -47,7 +53,6 @@ spec:
   resources:
     requests:
       storage: 300Mi
-  volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
 

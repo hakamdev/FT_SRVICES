@@ -1,5 +1,5 @@
-if [ "$(pgrep telegraf)" = "" ]; then
-        echo "process killed!"
+if [ "$(pgrep $1)" = "" ]; then
+        exit 1
 else
-        echo "process alive: $(pgrep telegraf)"
+        exit 0
 fi

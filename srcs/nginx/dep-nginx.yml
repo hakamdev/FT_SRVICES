@@ -22,6 +22,13 @@ spec:
           name: http
         - containerPort: 22
           name: ssh
+        livenessProbe:
+          exec:
+            command:
+              - sh
+              - /health.sh
+          initialDelaySeconds: 30
+          periodSeconds: 5
 ---
 apiVersion: v1
 kind: Service
