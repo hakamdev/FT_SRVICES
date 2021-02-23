@@ -55,5 +55,3 @@ spec:
       storage: 300Mi
   accessModes:
     - ReadWriteOnce
-
-
