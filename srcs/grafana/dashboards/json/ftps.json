@@ -16,8 +16,7 @@
 	"editable": true,
 	"gnetId": 928,
 	"graphTooltip": 1,
-	"id": 2,
-	"iteration": 1613926599353,
+	"iteration": 1614166422945,
 	"links": [],
 	"panels": [
 	  {
@@ -1961,6 +1960,7 @@
 		  "y": 35
 		},
 		"height": "",
+		"hiddenSeries": false,
 		"id": 61855,
 		"legend": {
 		  "alignAsTable": true,
@@ -1977,6 +1977,9 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
+		"options": {
+		  "alertThreshold": true
+		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2099,6 +2102,7 @@
 		  "y": 35
 		},
 		"height": "",
+		"hiddenSeries": false,
 		"id": 61960,
 		"legend": {
 		  "alignAsTable": true,
@@ -2115,6 +2119,9 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
+		"options": {
+		  "alertThreshold": true
+		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2237,6 +2244,7 @@
 		  "y": 35
 		},
 		"height": "",
+		"hiddenSeries": false,
 		"id": 62042,
 		"legend": {
 		  "alignAsTable": true,
@@ -2253,6 +2261,9 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
+		"options": {
+		  "alertThreshold": true
+		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2444,6 +2455,7 @@
 		  "x": 0,
 		  "y": 43
 		},
+		"hiddenSeries": false,
 		"id": 62043,
 		"legend": {
 		  "alignAsTable": true,
@@ -2464,6 +2476,9 @@
 		"linewidth": 1,
 		"links": [],
 		"nullPointMode": "connected",
+		"options": {
+		  "alertThreshold": true
+		},
 		"percentage": false,
 		"pluginVersion": "7.4.2",
 		"pointradius": 5,
@@ -2794,7 +2809,7 @@
 		"pointradius": 5,
 		"points": false,
 		"renderer": "flot",
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 61868,
 		"scopedVars": {
 		  "cpu": {
@@ -8350,7 +8365,7 @@
 		},
 		"id": 62059,
 		"panels": [],
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -8411,7 +8426,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8573,7 +8588,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8752,7 +8767,7 @@
 		},
 		"id": 62062,
 		"panels": [],
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -8813,7 +8828,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -8975,7 +8990,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9154,7 +9169,7 @@
 		},
 		"id": 62065,
 		"panels": [],
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -9215,7 +9230,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9377,7 +9392,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9556,7 +9571,7 @@
 		},
 		"id": 62068,
 		"panels": [],
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 62056,
 		"scopedVars": {
 		  "mountpoint": {
@@ -9617,7 +9632,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 52240,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -9779,7 +9794,7 @@
 		"points": false,
 		"renderer": "flot",
 		"repeat": null,
-		"repeatIteration": 1613926599353,
+		"repeatIteration": 1614166422945,
 		"repeatPanelId": 33458,
 		"repeatedByRow": true,
 		"scopedVars": {
@@ -10586,6 +10601,7 @@
 		  "name": "datasource",
 		  "options": [],
 		  "query": "influxdb",
+		  "queryValue": "",
 		  "refresh": 1,
 		  "regex": "/Ftps*/",
 		  "skipUrlSync": false,
@@ -10664,8 +10680,8 @@
 		  "allValue": null,
 		  "current": {
 			"selected": false,
-			"text": "ftps-bf9576b7b-fbdt8",
-			"value": "ftps-bf9576b7b-fbdt8"
+			"text": "ftps",
+			"value": "ftps"
 		  },
 		  "datasource": "Ftps",
 		  "definition": "",
@@ -10833,6 +10849,6 @@
 	},
 	"timezone": "browser",
 	"title": "Ftps Dashboard",
-	"uid": "000000128",
-	"version": 2
+	"uid": "000000150",
+	"version": 1
   }
