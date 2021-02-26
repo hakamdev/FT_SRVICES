@@ -1,25 +1,24 @@
 #!/bin/sh
-apk --no-cache update;
-apk --no-cache add libc6-compat;
-apk --no-cache add unzip;
-tar -xvf grafana-7.4.2.linux-amd64.tar.gz;
-mv grafana-7.4.2 /usr/share/grafana
-mkdir -p /var/lib/grafana/dashboards
+echo "1- Installing Necessary Packages...";
+apk --no-cache update > /dev/null;
+apk --no-cache add libc6-compat > /dev/null;
+apk --no-cache add unzip > /dev/null;
 
-unzip dashboards.zip;
-mv /dashboards/json/* /var/lib/grafana/dashboards
-mv /dashboards/yaml/dashboards.yml /usr/share/grafana/conf/provisioning/dashboards/
-mv /dashboards/yaml/datasources.yml /usr/share/grafana/conf/provisioning/datasources/
-# rm -rf /dashboards
+echo "2- Installing and Configuring Grafana...";
+tar -xvf grafana-7.4.2.linux-amd64.tar.gz > /dev/null;
+mv grafana-7.4.2 /usr/share/grafana > /dev/null;
+mkdir -p /usr/share/grafana/data/ > /dev/null;
+cp /grafana.db /usr/share/grafana/data/ > /dev/null;
 
-wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz
-tar xf telegraf-1.17.3_linux_amd64.tar.gz
+echo "3- Installing and Configuring Telegraf of Data Collection...";
+wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+tar xf telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+cp -r telegraf-1.17.3/etc/* /etc/ > /dev/null;
+cp -r telegraf-1.17.3/usr/* /usr/ > /dev/null;
+cp -r telegraf-1.17.3/var/* /var/ > /dev/null;
+mv telegraf.conf /etc/telegraf/ > /dev/null;
 
-cp -r telegraf-1.17.3/etc/* /etc/;
-cp -r telegraf-1.17.3/usr/* /usr/;
-cp -r telegraf-1.17.3/var/* /var/;
-
-rm -rf telegraf-1.17.3*
-rm -rf grafana-7.4.2*
-
-mv telegraf.conf /etc/telegraf/
+echo "4- Cleaning Up...";
+rm -rf telegraf-1.17.3* > /dev/null;
+rm -rf grafana-7.4.2* > /dev/null;
+rm -rf setup_grafana.sh Dockerfile dep-grafana.yml grafana.db > /dev/null;
