@@ -1,21 +1,24 @@
 #!/bin/sh
-apk		--no-cache update;
-apk		--no-cache add openrc;
-apk		--no-cache add libc6-compat;
-mkdir	/run/openrc;
-touch	/run/openrc/softlevel;
-rc-status;
-apk		--no-cache add mariadb mariadb-common mariadb-client;
+apk		--no-cache update > /dev/null;
+apk		--no-cache add openrc > /dev/null;
+apk		--no-cache add libc6-compat > /dev/null;
+apk		--no-cache add mariadb mariadb-common mariadb-client > /dev/null;
 
-mysql_install_db --user=mysql --datadir=/var/lib/mysql
+mkdir	/run/openrc > /dev/null;
+touch	/run/openrc/softlevel > /dev/null;
+rc-status > /dev/null;
 
-wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz
-tar xf telegraf-1.17.3_linux_amd64.tar.gz
+mysql_install_db --user=mysql --datadir=/var/lib/mysql > /dev/null;
 
-cp -r telegraf-1.17.3/etc/* /etc/;
-cp -r telegraf-1.17.3/usr/* /usr/;
-cp -r telegraf-1.17.3/var/* /var/;
 
-rm -rf telegraf-1.17.3*
+wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+tar xf telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+cp -r telegraf-1.17.3/etc/* /etc/ > /dev/null;
+cp -r telegraf-1.17.3/usr/* /usr/ > /dev/null;
+cp -r telegraf-1.17.3/var/* /var/ > /dev/null;
+mv telegraf.conf /etc/telegraf/ > /dev/null;
 
-mv telegraf.conf /etc/telegraf/
+
+rm -rf telegraf-1.17.3* > /dev/null;
+
+
