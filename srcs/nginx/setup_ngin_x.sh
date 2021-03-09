@@ -1,42 +1,48 @@
 #!/bin/sh
-apk --no-cache update;
-apk --no-cache add nginx;
-apk --no-cache add openrc;
-apk --no-cache add openssh;
-apk --no-cache add openssl;
-apk --no-cache add libc6-compat;
 
-mkdir	/run/openrc;
-touch	/run/openrc/softlevel;
+echo "1- Installing Necessary Packages...";
+apk --no-cache update > /dev/null;
+apk --no-cache add nginx > /dev/null;
+apk --no-cache add openrc > /dev/null;
+apk --no-cache add openssh > /dev/null;
+apk --no-cache add openssl > /dev/null;
+apk --no-cache add libc6-compat > /dev/null;
 
-rc-status
-rc-update add nginx;
-rc-update add sshd;
+echo "2- Setting Up OpenRC...";
+mkdir	/run/openrc > /dev/null;
+touch	/run/openrc/softlevel > /dev/null;
+rc-status > /dev/null;
+rc-update add nginx > /dev/null;
+rc-update add sshd > /dev/null;
 
-adduser -D hakam;
-echo hakam:hakam | chpasswd; 
+echo "3- Creating a User for SSH...";
+adduser -D hakam > /dev/null;
+echo hakam:hakam | chpasswd > /dev/null; 
 
-mkdir /var/www/html;
-mv index.html /var/www/html/
-chmod 755 /var/www/html;
-chown -R nginx: /var/www/html;
-rm -rf /etc/nginx/nginx.conf;
-mv nginx.conf /etc/nginx/;
-chown -R nginx: /etc/nginx/nginx.conf;
-chmod 755 /etc/nginx/nginx.conf;
-mkdir /run/nginx/;
+echo "4- Configuring Nginx...";
+mkdir /var/www/html > /dev/null;
+mv index.html /var/www/html/ > /dev/null;
+chmod 755 /var/www/html > /dev/null;
+chown -R nginx: /var/www/html > /dev/null;
+rm -rf /etc/nginx/nginx.conf > /dev/null;
+mv nginx.conf /etc/nginx/ > /dev/null;
+chown -R nginx: /etc/nginx/nginx.conf > /dev/null;
+chmod 755 /etc/nginx/nginx.conf > /dev/null;
+mkdir /run/nginx/ > /dev/null;
 
-openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/nginx.pem -keyout /etc/ssl/private/nginx.key -subj "/C=MA/ST=Bg/L=Benguerir/O=1337/OU=ComputerScience/CN=www.hakamdev.com/name=hakamdev"
-chown	-R nginx: /etc/ssl/private/nginx.key
-chown	-R nginx: /etc/ssl/certs/nginx.pem
+echo "5- Generating Certificate and Key for Nginx Secure Connection SSL...";
+openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/nginx.pem -keyout /etc/ssl/private/nginx.key -subj "/C=MA/ST=Bg/L=Benguerir/O=1337/OU=ComputerScience/CN=www.hakamdev.com/name=hakamdev" > /dev/null;
+chown	-R nginx: /etc/ssl/private/nginx.key > /dev/null;
+chown	-R nginx: /etc/ssl/certs/nginx.pem > /dev/null;
 
-wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz
-tar xf telegraf-1.17.3_linux_amd64.tar.gz
+echo "6- Installing and Configuring Telegraf of Data Collection...";
+wget https://dl.influxdata.com/telegraf/releases/telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+tar xf telegraf-1.17.3_linux_amd64.tar.gz > /dev/null;
+cp -r telegraf-1.17.3/etc/* /etc/ > /dev/null;
+cp -r telegraf-1.17.3/usr/* /usr/ > /dev/null;
+cp -r telegraf-1.17.3/var/* /var/ > /dev/null;
+mv telegraf.conf /etc/telegraf/ > /dev/null;
 
-cp -r telegraf-1.17.3/etc/* /etc/;
-cp -r telegraf-1.17.3/usr/* /usr/;
-cp -r telegraf-1.17.3/var/* /var/;
-
-rm -rf telegraf-1.17.3*
-
-mv telegraf.conf /etc/telegraf/
+echo "7- Cleaning Up...";
+rm -rf telegraf-1.17.3* > /dev/null;
+rm -rf setup_ngin_x.sh Dockerfile dep-nginx.yml > /dev/null;
